@@ -1,0 +1,81 @@
+/* Resete do css */
+*{
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* seção geral */
+body{
+ background-color: #fff;
+}
+main {
+  color: #0000008c;
+  margin-bottom: 60px;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container-titulo {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-titulo h2, .container-titulo h3 {
+  margin:0;
+}
+
+/* Stilos para seção Topo */
+.topo{
+  background-color: #00cad1;
+  width: 100%;
+  border-radius: 10px;
+}
+.topo .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.topo-titulo{
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topo-titulo a{
+  display: flex;
+}
+.topo-img{
+  height: 60px;
+}
+.topo-links{
+  display: flex;
+}
+.topo-link{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+}
+.topo-link:hover{
+  color: #100201;
+  text-shadow: 10px 10px 5px red;
+}
+
+/* Início CSS Rodapé */
+  footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  footer .container {
+    text-align: center;
+  }
